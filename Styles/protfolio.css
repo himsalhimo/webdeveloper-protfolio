@@ -21,6 +21,8 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
+    margin: 0px 200px;
+    /* margin-top: 50px; */
 }
 
 /* others styles */
@@ -45,3 +47,21 @@ nav a {
     text-decoration: none;
     color: #474747;
 }
+
+/* nav related styles */
+
+.header{
+    background-color: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profle-pic{
+    width: 580px;
+    height: 675px;
+}
+
