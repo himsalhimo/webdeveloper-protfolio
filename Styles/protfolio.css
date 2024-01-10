@@ -102,6 +102,10 @@ nav a {
 
 /* the main section */
 
+main{
+    width: 1140px;
+    margin: 0px auto;
+}
 /* about section */
 
 .about {
@@ -110,3 +114,26 @@ nav a {
     border-radius: 10px;
     margin-top: 130px;
 }
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 130px;
+    height: 60px;
+    width: 185px;
+}
+ 
+.what-i-do{
+    margin-top: 130px;
+}
+
+#what-i-do-description{
+    padding: 30px 155px;
+    margin-top: 30px;
+}
+
